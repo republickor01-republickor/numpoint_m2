@@ -114,7 +114,7 @@ export function generateTokensForCurrentBoards(
       new TokenCard(
         700 - tokens.length * 40,
         80,
-        30,
+        25,  // 토큰 사이즈 ?
         data.raw,
         data.value,
         data.com_raw,
@@ -316,6 +316,7 @@ function genRational_R4(min, max) {
   };
 }
   // 분모가 1~10 까지인 분수
+
 
 
 
